@@ -1,0 +1,30 @@
+
+body {
+    background-color: #6b757c;
+    background-image: linear-gradient(to bottom, #0077b6, #6b757c); /*gradiente de color de fondo*/
+    background-repeat: no-repeat; /*no repetir la imagen de fondo*/
+    background-size: cover; /*ajustar el tamaño de la imagen de fondo para cubrir todo el viewport*/
+    background-attachment: fixed; /*fijar la imagen de fondo en su lugar*/
+  }
+
+h1 {
+	margin: 0;
+	font-size: 36px;
+	font-weight: 400;
+  text-align: center;
+}
+
+
+/* Botón */
+button {
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
